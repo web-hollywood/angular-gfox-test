@@ -1,0 +1,32 @@
+.random-view-container {
+  position: relative;
+
+  .beer-detail {
+    display: flex;
+
+    .image-wrapper {
+      flex: 0 0 50px;
+      width: 50px;
+      margin-right: 10px;
+    }
+  }
+
+  .col-sm-2 {
+    max-width: unset;
+  }
+
+  .btn-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .btn {
+      width: 150px;
+      white-space: inherit;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

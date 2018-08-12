@@ -1,0 +1,33 @@
+.search-view-container {
+
+  position: relative;
+
+  .search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .form {
+      display: flex;
+      align-items: center;
+
+      .form-group {
+        .radio-inline {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .beer-detail {
+    display: flex;
+    flex-wrap: inherit;
+    margin: 50px 0 0;
+
+    .image-wrapper {
+      flex: 0 0 50px;
+      width: 50px;
+      margin-right: 10px;
+    }
+  }
+}
