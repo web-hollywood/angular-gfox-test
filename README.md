@@ -1,4 +1,4 @@
-# Golfox - test project
+# Gfox - test project
 
 This project was generated with Angular CLI version 6.0.8 by web-hollywood.
 
